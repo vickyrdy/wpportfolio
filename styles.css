@@ -129,12 +129,12 @@ section {
 }
 
 #About .text-container p {
-	max-width: 500px;
+	
 	text-align: left;
 	color: #d9d7d7;
-	font-size: 16px;
+	font-size: 25px;
 	line-height: 25px;
-	letter-spacing: 0.4px;
+	letter-spacing: 1.5px;
 }
 
 #About .text-container h2 {
@@ -162,7 +162,7 @@ section {
 }
 
 #Academic .text-container p {
-	max-width: 500px;
+	
 	text-align: left;
 	color: #d9d7d7;
 	font-size: 16px;
@@ -177,6 +177,12 @@ section {
 	text-align: left;
 	margin: 20px 0;
 }
+#Academic img {
+	min-height: 300px;
+	min-width: 300px;
+	border-radius: 5px;
+}
+
 
 #Professional .flex-container {
 	display: flex;
@@ -196,7 +202,7 @@ section {
 }
 
 #Professional .text-container p {
-	max-width: 500px;
+	
 	text-align: left;
 	color: #d9d7d7;
 	font-size: 20px;
@@ -211,6 +217,13 @@ section {
 	margin: 20px 0;
 }
 
+#Professional img {
+	min-height: 300px;
+	min-width: 300px;
+	border-radius: 5px;
+}
+
+
 #Skills .flex-container button {
 	background: #5aff85;
 	padding: 15px 17px;
@@ -219,6 +232,7 @@ section {
 	border-radius: 5px;
 	margin-right: 20px;
 }
+
 
 #Skills .flex-container button:hover {
 	cursor: pointer;
@@ -324,4 +338,11 @@ textarea {
       background-color: #ccc;
       cursor: not-allowed;
     }
-	
+	#Academic p{
+		
+		text-align: left;
+		color: #d9d7d7;
+		font-size: 25px;
+		line-height: 30px;
+		letter-spacing: 0.4px;
+	}
