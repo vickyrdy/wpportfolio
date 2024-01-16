@@ -8,4 +8,5 @@ const messageInput = document.getElementById('message');
       const currentLength = messageInput.value.length;
       counter.textContent = `${currentLength}/500 characters`;
       sendButton.disabled = currentLength === 0 || currentLength > 500;
-    }
+     sendButton.disabled = currentLength === 0 || currentLength > 500;
+    }}
